@@ -52,11 +52,11 @@ builder.add_edge("node_3", END)
 # Compile
 graph=builder.compile()
 
-# View
-display(Image(graph.get_graph().draw_mermaid_png()))
+# # View
+# display(Image(graph.get_graph().draw_mermaid_png()))
 
 
 
 
 
-graph.invoke({'graph_state':'Hi, this is Sagnik. '})
+# graph.invoke({'graph_state':'Hi, this is Sagnik. '})
